@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  --background: #07111f;
+  --panel: #0d1a2b;
+  --line: #1b2b40;
+  --muted: #8da0b8;
+  --cyan: #4bd7e8;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--background); color: #edf5ff; font-family: Arial, Helvetica, sans-serif; }
+a { color: inherit; text-decoration: none; }
